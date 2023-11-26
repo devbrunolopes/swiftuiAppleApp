@@ -13,6 +13,7 @@
 		BE8465B22B136664001DB9F2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE8465B12B136664001DB9F2 /* Preview Assets.xcassets */; };
 		BE8465BA2B136DE7001DB9F2 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8465B92B136DE7001DB9F2 /* Theme.swift */; };
 		BE8465BC2B136EC6001DB9F2 /* DailyScrum.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8465BB2B136EC6001DB9F2 /* DailyScrum.swift */; };
+		BE8465BF2B136F3E001DB9F2 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8465BE2B136F3E001DB9F2 /* CardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		BE8465B12B136664001DB9F2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BE8465B92B136DE7001DB9F2 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 		BE8465BB2B136EC6001DB9F2 /* DailyScrum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyScrum.swift; sourceTree = "<group>"; };
+		BE8465BE2B136F3E001DB9F2 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,9 +57,9 @@
 		BE8465A92B136663001DB9F2 /* SwiftUiAppleApp */ = {
 			isa = PBXGroup;
 			children = (
+				BE8465BD2B136F2E001DB9F2 /* Views */,
 				BE8465B82B136DD3001DB9F2 /* Models */,
 				BE8465AA2B136663001DB9F2 /* SwiftUiAppleAppApp.swift */,
-				BE8465AC2B136663001DB9F2 /* MeetingView.swift */,
 				BE8465AE2B136664001DB9F2 /* Assets.xcassets */,
 				BE8465B02B136664001DB9F2 /* Preview Content */,
 			);
@@ -79,6 +81,15 @@
 				BE8465BB2B136EC6001DB9F2 /* DailyScrum.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		BE8465BD2B136F2E001DB9F2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BE8465AC2B136663001DB9F2 /* MeetingView.swift */,
+				BE8465BE2B136F3E001DB9F2 /* CardView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -155,6 +166,7 @@
 				BE8465BA2B136DE7001DB9F2 /* Theme.swift in Sources */,
 				BE8465AD2B136663001DB9F2 /* MeetingView.swift in Sources */,
 				BE8465AB2B136663001DB9F2 /* SwiftUiAppleAppApp.swift in Sources */,
+				BE8465BF2B136F3E001DB9F2 /* CardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
