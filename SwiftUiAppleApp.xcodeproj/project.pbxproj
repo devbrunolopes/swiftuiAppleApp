@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		BE8465AB2B136663001DB9F2 /* SwiftUiAppleAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8465AA2B136663001DB9F2 /* SwiftUiAppleAppApp.swift */; };
-		BE8465AD2B136663001DB9F2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8465AC2B136663001DB9F2 /* ContentView.swift */; };
+		BE8465AD2B136663001DB9F2 /* MeetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8465AC2B136663001DB9F2 /* MeetingView.swift */; };
 		BE8465AF2B136664001DB9F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE8465AE2B136664001DB9F2 /* Assets.xcassets */; };
 		BE8465B22B136664001DB9F2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE8465B12B136664001DB9F2 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
@@ -16,7 +16,7 @@
 /* Begin PBXFileReference section */
 		BE8465A72B136663001DB9F2 /* SwiftUiAppleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUiAppleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE8465AA2B136663001DB9F2 /* SwiftUiAppleAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUiAppleAppApp.swift; sourceTree = "<group>"; };
-		BE8465AC2B136663001DB9F2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BE8465AC2B136663001DB9F2 /* MeetingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingView.swift; sourceTree = "<group>"; };
 		BE8465AE2B136664001DB9F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BE8465B12B136664001DB9F2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -52,7 +52,7 @@
 			isa = PBXGroup;
 			children = (
 				BE8465AA2B136663001DB9F2 /* SwiftUiAppleAppApp.swift */,
-				BE8465AC2B136663001DB9F2 /* ContentView.swift */,
+				BE8465AC2B136663001DB9F2 /* MeetingView.swift */,
 				BE8465AE2B136664001DB9F2 /* Assets.xcassets */,
 				BE8465B02B136664001DB9F2 /* Preview Content */,
 			);
@@ -137,7 +137,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BE8465AD2B136663001DB9F2 /* ContentView.swift in Sources */,
+				BE8465AD2B136663001DB9F2 /* MeetingView.swift in Sources */,
 				BE8465AB2B136663001DB9F2 /* SwiftUiAppleAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
