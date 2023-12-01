@@ -7,18 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BE70A5C52B1A49980067E375 /* TrailingIconLabelStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE70A5C42B1A49980067E375 /* TrailingIconLabelStyle.swift */; };
 		BE8465AB2B136663001DB9F2 /* SwiftUiAppleAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8465AA2B136663001DB9F2 /* SwiftUiAppleAppApp.swift */; };
 		BE8465AD2B136663001DB9F2 /* MeetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8465AC2B136663001DB9F2 /* MeetingView.swift */; };
 		BE8465AF2B136664001DB9F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE8465AE2B136664001DB9F2 /* Assets.xcassets */; };
 		BE8465B22B136664001DB9F2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE8465B12B136664001DB9F2 /* Preview Assets.xcassets */; };
+		BE8465BA2B136DE7001DB9F2 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8465B92B136DE7001DB9F2 /* Theme.swift */; };
+		BE8465BC2B136EC6001DB9F2 /* DailyScrum.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8465BB2B136EC6001DB9F2 /* DailyScrum.swift */; };
+		BE8465BF2B136F3E001DB9F2 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8465BE2B136F3E001DB9F2 /* CardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BE70A5C42B1A49980067E375 /* TrailingIconLabelStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailingIconLabelStyle.swift; sourceTree = "<group>"; };
 		BE8465A72B136663001DB9F2 /* SwiftUiAppleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUiAppleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE8465AA2B136663001DB9F2 /* SwiftUiAppleAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUiAppleAppApp.swift; sourceTree = "<group>"; };
 		BE8465AC2B136663001DB9F2 /* MeetingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingView.swift; sourceTree = "<group>"; };
 		BE8465AE2B136664001DB9F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BE8465B12B136664001DB9F2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BE8465B92B136DE7001DB9F2 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		BE8465BB2B136EC6001DB9F2 /* DailyScrum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyScrum.swift; sourceTree = "<group>"; };
+		BE8465BE2B136F3E001DB9F2 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +59,9 @@
 		BE8465A92B136663001DB9F2 /* SwiftUiAppleApp */ = {
 			isa = PBXGroup;
 			children = (
+				BE8465BD2B136F2E001DB9F2 /* Views */,
+				BE8465B82B136DD3001DB9F2 /* Models */,
 				BE8465AA2B136663001DB9F2 /* SwiftUiAppleAppApp.swift */,
-				BE8465AC2B136663001DB9F2 /* MeetingView.swift */,
 				BE8465AE2B136664001DB9F2 /* Assets.xcassets */,
 				BE8465B02B136664001DB9F2 /* Preview Content */,
 			);
@@ -65,6 +74,25 @@
 				BE8465B12B136664001DB9F2 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BE8465B82B136DD3001DB9F2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BE8465B92B136DE7001DB9F2 /* Theme.swift */,
+				BE8465BB2B136EC6001DB9F2 /* DailyScrum.swift */,
+				BE70A5C42B1A49980067E375 /* TrailingIconLabelStyle.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		BE8465BD2B136F2E001DB9F2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BE8465AC2B136663001DB9F2 /* MeetingView.swift */,
+				BE8465BE2B136F3E001DB9F2 /* CardView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +165,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE8465BC2B136EC6001DB9F2 /* DailyScrum.swift in Sources */,
+				BE70A5C52B1A49980067E375 /* TrailingIconLabelStyle.swift in Sources */,
+				BE8465BA2B136DE7001DB9F2 /* Theme.swift in Sources */,
 				BE8465AD2B136663001DB9F2 /* MeetingView.swift in Sources */,
 				BE8465AB2B136663001DB9F2 /* SwiftUiAppleAppApp.swift in Sources */,
+				BE8465BF2B136F3E001DB9F2 /* CardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
