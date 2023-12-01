@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BE70A5C52B1A49980067E375 /* TrailingIconLabelStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE70A5C42B1A49980067E375 /* TrailingIconLabelStyle.swift */; };
 		BE8465AB2B136663001DB9F2 /* SwiftUiAppleAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8465AA2B136663001DB9F2 /* SwiftUiAppleAppApp.swift */; };
 		BE8465AD2B136663001DB9F2 /* MeetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8465AC2B136663001DB9F2 /* MeetingView.swift */; };
 		BE8465AF2B136664001DB9F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE8465AE2B136664001DB9F2 /* Assets.xcassets */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BE70A5C42B1A49980067E375 /* TrailingIconLabelStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailingIconLabelStyle.swift; sourceTree = "<group>"; };
 		BE8465A72B136663001DB9F2 /* SwiftUiAppleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUiAppleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE8465AA2B136663001DB9F2 /* SwiftUiAppleAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUiAppleAppApp.swift; sourceTree = "<group>"; };
 		BE8465AC2B136663001DB9F2 /* MeetingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingView.swift; sourceTree = "<group>"; };
@@ -79,6 +81,7 @@
 			children = (
 				BE8465B92B136DE7001DB9F2 /* Theme.swift */,
 				BE8465BB2B136EC6001DB9F2 /* DailyScrum.swift */,
+				BE70A5C42B1A49980067E375 /* TrailingIconLabelStyle.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -163,6 +166,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BE8465BC2B136EC6001DB9F2 /* DailyScrum.swift in Sources */,
+				BE70A5C52B1A49980067E375 /* TrailingIconLabelStyle.swift in Sources */,
 				BE8465BA2B136DE7001DB9F2 /* Theme.swift in Sources */,
 				BE8465AD2B136663001DB9F2 /* MeetingView.swift in Sources */,
 				BE8465AB2B136663001DB9F2 /* SwiftUiAppleAppApp.swift in Sources */,
