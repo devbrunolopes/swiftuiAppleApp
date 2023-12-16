@@ -22,7 +22,14 @@ struct DetailEditView: View {
                     Text("\(scrum.lengthInMinutes) minutes")
                 }
             }
-            
+            Section(header: Text("Attendees")) {
+                ForEach(scrum.attendees) { attendee in
+                    Text(attendee.name)
+                }
+                .onDelete { indices in
+                    scrum.attendees.remove(atOffsets: indices)
+                }
+            }
         }
     }
 }
